@@ -16,7 +16,7 @@ void score_table_create(){
 	}
 }
 
-void absent_stu_num_create(){//从成绩最差的是个学生中随机生成N个常缺课学生 
+void absent_stu_num_create(){//从成绩最差的10个学生中随机生成N个常缺课学生 
 	score_table_create();
 	sort(score_table_ordered,score_table_ordered+90);
 	int cnt=N;
